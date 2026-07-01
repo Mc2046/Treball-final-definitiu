@@ -1,0 +1,294 @@
+Info: NAMD 2.6 for Linux-amd64
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: and send feedback or bug reports to namd@ks.uiuc.edu
+Info: 
+Info: Please cite Phillips et al., J. Comp. Chem. 26:1781-1802 (2005)
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 50900 for net-linux-amd64-iccstatic
+Info: Built Wed Aug 30 12:54:51 CDT 2006 by jim on belfast.ks.uiuc.edu
+Info: 1 NAMD  2.6  Linux-amd64  1    tashkent.ks.uiuc.edu  jcomer
+Info: Running on 1 processors.
+Info: 7604 kB of memory in use.
+Info: Memory usage based on mallinfo
+Info: Configuration file is field.namd
+TCL: Suspending until startup complete.
+Info: EXTENDED SYSTEM FILE   eq2.xsc
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               1
+Info: NUMBER OF STEPS        1000
+Info: STEPS PER CYCLE        20
+Info: PERIODIC CELL BASIS 1  34.1775 19.7324 0
+Info: PERIODIC CELL BASIS 2  0 39.4648 0
+Info: PERIODIC CELL BASIS 3  0 0 17.412
+Info: PERIODIC CELL CENTER   0 0 0
+Info: WRAPPING ALL CLUSTERS AROUND PERIODIC BOUNDARIES ON OUTPUT.
+Info: WRAPPING TO IMAGE NEAREST TO PERIODIC CELL CENTER.
+Info: LOAD BALANCE STRATEGY  Other
+Info: LDB PERIOD             4000 steps
+Info: FIRST LDB TIMESTEP     100
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: PME BACKGROUND SCALING 1
+Info: MAX SELF PARTITIONS    50
+Info: MAX PAIR PARTITIONS    20
+Info: SELF PARTITION ATOMS   125
+Info: PAIR PARTITION ATOMS   200
+Info: PAIR2 PARTITION ATOMS  400
+Info: MIN ATOMS PER PATCH    100
+Info: VELOCITY FILE          eq2.vel
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 SCALE FACTOR       1
+Info: DCD FILENAME           field10.0.dcd
+Info: DCD FREQUENCY          100
+Info: DCD FIRST STEP         100
+Info: DCD FILE WILL CONTAIN UNIT CELL DATA
+Info: XST FILENAME           field10.0.xst
+Info: XST FREQUENCY          100
+Info: NO VELOCITY DCD OUTPUT
+Info: OUTPUT FILENAME        field10.0
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       field10.0.restart
+Info: RESTART FREQUENCY      100
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 3
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        19.5
+Info: ENERGY OUTPUT STEPS    100
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    100
+Info: HARMONIC CONSTRAINTS ACTIVE
+Info: HARMONIC CONS EXP      2
+Info: ELECTRIC FIELD ACTIVE
+Info: E-FIELD VECTOR         (0, 0, 16)
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   295
+Info: LANGEVIN DAMPING COEFFICIENT IS 0.2 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: PARTICLE MESH EWALD (PME) ACTIVE
+Info: PME TOLERANCE               1e-06
+Info: PME EWALD COEFFICIENT       0.257952
+Info: PME INTERPOLATION ORDER     4
+Info: PME GRID DIMENSIONS         48 48 128
+Info: PME MAXIMUM GRID SPACING    1.5
+Info: Attempting to read FFTW data from FFTW_NAMD_2.6_Linux-amd64.txt
+Info: Optimizing 6 FFT steps.  1... 2... 3... 4... 5... 6...   Done.
+Info: Writing FFTW data to FFTW_NAMD_2.6_Linux-amd64.txt
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      4
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: NONBONDED FORCES EVALUATED EVERY 2 STEPS
+Info: RANDOM NUMBER SEED     1175904033
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         ../1_build/membrane_hex.pdb
+Info: STRUCTURE FILE         ../1_build/membrane_hex.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             par_silicon_ions_NEW0.1.inp
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: BINARY COORDINATES     eq2.coor
+Info: SUMMARY OF PARAMETERS:
+Info: 11 BONDS
+Info: 36 ANGLES
+Info: 0 DIHEDRAL
+Info: 0 IMPROPER
+Info: 0 CROSSTERM
+Info: 15 VDW
+Info: 0 VDW_PAIRS
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 2268 ATOMS
+Info: 3888 BONDS
+Info: 9720 ANGLES
+Info: 0 DIHEDRALS
+Info: 0 IMPROPERS
+Info: 0 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 2268 CONSTRAINTS
+Info: 6804 DEGREES OF FREEDOM
+Info: 2268 HYDROGEN GROUPS
+Info: TOTAL MASS = 45452.2 amu
+Info: TOTAL CHARGE = 3.86238e-05 e
+Info: *****************************
+Info: Entering startup phase 0 with 8776 kB of memory in use.
+Info: Entering startup phase 1 with 8776 kB of memory in use.
+Info: Entering startup phase 2 with 8776 kB of memory in use.
+Info: Entering startup phase 3 with 8776 kB of memory in use.
+Info: PATCH GRID IS 1 (PERIODIC) BY 1 (PERIODIC) BY 1 (PERIODIC)
+Info: REMOVING COM VELOCITY -0.0118078 0.013194 -0.0196803
+Info: LARGEST PATCH (0) HAS 2268 ATOMS
+Info: CREATING 323 COMPUTE OBJECTS
+Info: Entering startup phase 4 with 8776 kB of memory in use.
+Info: PME using 1 and 1 processors for FFT and reciprocal sum.
+Info: PME GRID LOCATIONS: 0
+Info: PME TRANS LOCATIONS: 0
+Info: Optimizing 4 FFT steps.  1... 2... 3... 4...   Done.
+Info: Entering startup phase 5 with 10264 kB of memory in use.
+Info: Entering startup phase 6 with 10264 kB of memory in use.
+Measuring processor speeds... Done.
+Info: Entering startup phase 7 with 10264 kB of memory in use.
+Info: CREATING 323 COMPUTE OBJECTS
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 769 POINTS
+Info: Entering startup phase 8 with 10452 kB of memory in use.
+Info: Finished startup with 10708 kB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP         TOTAL2         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:       0        47.1228         0.8379         0.0000         0.0000        -308186.0814     -2123.9522      4102.2115       -18.8872      2032.8307        -304145.9178       300.6957   -304143.9391   -304143.9391       300.6957        -132130.3936   -132130.3936     23485.4484   -132130.3936   -132130.3936
+
+OPENING EXTENDED SYSTEM TRAJECTORY FILE
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Info: Initial time: 1 CPUs 0.119893 s/step 1.38765 days/ns 24092 kB memory
+TIMING: 100  CPU: 13.5029, 0.119202/step  Wall: 13.8333, 0.121562/step, 0.0303905 hours remaining, 24092 kB of memory in use.
+ENERGY:     100        25.8059         0.4771         0.0000         0.0000        -307657.9392      -171.1539      2090.5496     -1934.8515      3426.0972        -304221.0148       506.7873   -304218.2047   -304218.9463       571.7207         -86187.7018    -86187.7018     23485.4484   -100058.4131   -100058.4131
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 100
+OPENING COORDINATE DCD FILE
+WRITING COORDINATES TO DCD FILE AT STEP 100
+WRITING COORDINATES TO RESTART FILE AT STEP 100
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 100
+FINISHED WRITING RESTART VELOCITIES
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Info: Initial time: 1 CPUs 0.116512 s/step 1.34852 days/ns 24640 kB memory
+TIMING: 200  CPU: 24.9342, 0.114313/step  Wall: 25.6492, 0.118159/step, 0.0262576 hours remaining, 24640 kB of memory in use.
+ENERGY:     200        29.5986         0.5279         0.0000         0.0000        -308090.6728      -831.0346      2675.6169     -1657.4703      3610.8903        -304262.5439       534.1219   -304260.0690   -304259.4482       528.7189        -104322.3778   -104322.3778     23485.4484    -94946.6124    -94946.6124
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 200
+WRITING COORDINATES TO DCD FILE AT STEP 200
+WRITING COORDINATES TO RESTART FILE AT STEP 200
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 200
+FINISHED WRITING RESTART VELOCITIES
+Info: Initial time: 1 CPUs 0.11968 s/step 1.38519 days/ns 24640 kB memory
+TIMING: 300  CPU: 36.6614, 0.117272/step  Wall: 37.7818, 0.121325/step, 0.023591 hours remaining, 24640 kB of memory in use.
+ENERGY:     300        30.4608         0.5953         0.0000         0.0000        -307643.2782      -445.0662      2556.5740     -2204.4477      3385.2021        -304319.9600       500.7382   -304317.0859   -304317.1925       555.4760         -98571.1439    -98571.1439     23485.4484    -99616.7857    -99616.7857
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 300
+WRITING COORDINATES TO DCD FILE AT STEP 300
+WRITING COORDINATES TO RESTART FILE AT STEP 300
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 300
+FINISHED WRITING RESTART VELOCITIES
+Info: Benchmark time: 1 CPUs 0.12205 s/step 1.41261 days/ns 24640 kB memory
+TIMING: 400  CPU: 48.6616, 0.120002/step  Wall: 50.1511, 0.123694/step, 0.0206156 hours remaining, 24640 kB of memory in use.
+ENERGY:     400        28.5654         0.5235         0.0000         0.0000        -308145.1669      -640.7056      2525.6919     -1756.5331      3620.9955        -304366.6293       535.6166   -304364.0933   -304363.0450       539.7432         -99786.0362    -99786.0362     23485.4484    -96750.1457    -96750.1457
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 400
+WRITING COORDINATES TO DCD FILE AT STEP 400
+WRITING COORDINATES TO RESTART FILE AT STEP 400
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 400
+FINISHED WRITING RESTART VELOCITIES
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Info: Benchmark time: 1 CPUs 0.11501 s/step 1.33114 days/ns 24640 kB memory
+TIMING: 500  CPU: 59.9739, 0.113123/step  Wall: 61.6522, 0.115011/step, 0.0159737 hours remaining, 24640 kB of memory in use.
+ENERGY:     500        31.9819         0.5783         0.0000         0.0000        -308016.2343       -63.9018      2595.6195     -2518.6188      3565.0514        -304405.5236       527.3414   -304402.6676   -304402.6129       533.7787         -95110.2511    -95110.2511     23485.4484   -101240.5192   -101240.5192
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 500
+WRITING COORDINATES TO DCD FILE AT STEP 500
+WRITING COORDINATES TO RESTART FILE AT STEP 500
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 500
+FINISHED WRITING RESTART VELOCITIES
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Warning: Not all atoms have unique coordinates.
+Info: Benchmark time: 1 CPUs 0.117763 s/step 1.363 days/ns 24640 kB memory
+TIMING: 600  CPU: 71.4821, 0.115083/step  Wall: 73.4287, 0.117765/step, 0.0130849 hours remaining, 24640 kB of memory in use.
+ENERGY:     600        28.9828         0.5477         0.0000         0.0000        -307955.7844      -869.0211      2520.9584     -1618.6861      3428.0495        -304464.9532       507.0761   -304461.9159   -304462.6321       538.4250        -107507.5344   -107507.5344     23485.4484    -95519.8652    -95519.8652
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 600
+WRITING COORDINATES TO DCD FILE AT STEP 600
+WRITING COORDINATES TO RESTART FILE AT STEP 600
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 600
+FINISHED WRITING RESTART VELOCITIES
+TIMING: 700  CPU: 83.2613, 0.117792/step  Wall: 85.4267, 0.119981/step, 0.00999838 hours remaining, 24640 kB of memory in use.
+ENERGY:     700        31.0950         0.5716         0.0000         0.0000        -308277.5142       307.3884      2484.0848     -2645.6524      3585.3498        -304514.6769       530.3439   -304511.7030   -304512.1347       527.7301         -84556.9185    -84556.9185     23485.4484   -100501.6497   -100501.6497
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 700
+WRITING COORDINATES TO DCD FILE AT STEP 700
+WRITING COORDINATES TO RESTART FILE AT STEP 700
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 700
+FINISHED WRITING RESTART VELOCITIES
+TIMING: 800  CPU: 94.6126, 0.113513/step  Wall: 97.0948, 0.11668/step, 0.00648224 hours remaining, 24640 kB of memory in use.
+ENERGY:     800        28.3580         0.5246         0.0000         0.0000        -307968.8092      -599.3770      2307.5078     -1881.4178      3524.3948        -304588.8188       521.3275   -304585.9501   -304585.7858       519.0652        -104437.6353   -104437.6353     23485.4484    -93506.8593    -93506.8593
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 800
+WRITING COORDINATES TO DCD FILE AT STEP 800
+WRITING COORDINATES TO RESTART FILE AT STEP 800
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 800
+FINISHED WRITING RESTART VELOCITIES
+TIMING: 900  CPU: 105.873, 0.112603/step  Wall: 108.568, 0.114728/step, 0.00318689 hours remaining, 24640 kB of memory in use.
+ENERGY:     900        29.8340         0.5722         0.0000         0.0000        -308014.6449      -406.2114      2571.3783     -2272.1292      3448.9561        -304642.2450       510.1686   -304639.5081   -304638.6979       522.9163         -98188.9366    -98188.9366     23485.4484   -103123.8098   -103123.8098
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 900
+WRITING COORDINATES TO DCD FILE AT STEP 900
+WRITING COORDINATES TO RESTART FILE AT STEP 900
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 900
+FINISHED WRITING RESTART VELOCITIES
+TIMING: 1000  CPU: 117.102, 0.112293/step  Wall: 120.21, 0.116424/step, 0 hours remaining, 24640 kB of memory in use.
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP         TOTAL2         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:    1000        28.4184         0.5186         0.0000         0.0000        -308000.2433      -525.5607      2293.3081     -1916.6212      3403.5238        -304716.6562       503.4483   -304714.1846   -304712.5621       510.8290        -100604.0599   -100604.0599     23485.4484    -97994.9206    -97994.9206
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 1000
+WRITING COORDINATES TO DCD FILE AT STEP 1000
+WRITING COORDINATES TO RESTART FILE AT STEP 1000
+FINISHED WRITING RESTART COORDINATES
+WRITING VELOCITIES TO RESTART FILE AT STEP 1000
+FINISHED WRITING RESTART VELOCITIES
+WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 1000
+CLOSING EXTENDED SYSTEM TRAJECTORY FILE
+WRITING COORDINATES TO OUTPUT FILE AT STEP 1000
+CLOSING COORDINATE DCD FILE
+WRITING VELOCITIES TO OUTPUT FILE AT STEP 1000
+==========================================
+WallClock: 121.239571  CPUTime: 117.353157  Memory: 24640 kB
