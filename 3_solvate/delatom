@@ -1,0 +1,34 @@
+psfgen) clearing structure, preserving topology and aliases
+psfgen) reading structure from psf file /home/macaco/Documents/UAB/4rt any/simulacions/treball final/arxius/bionano-tutorial-files robant a exemple output/3_solvate/pore_hex.psf
+psfgen) reading coordinates, insertion codes, and element symbols from pdb file /home/macaco/Documents/UAB/4rt any/simulacions/treball final/arxius/bionano-tutorial-files robant a exemple output/3_solvate/pore_hex.pdb
+psfgen) psf file does not contain cross-terms
+psfgen) reading topology file /usr/local/lib/vmd/plugins/noarch/tcl/readcharmmtop1.2/toppar_water_ions_namd.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen) skipping parameters in stream file
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) building segment ION
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+psfgen) Info: generating structure...
+psfgen) segment complete.
+psfgen) Info: writing psf file pore_all.psf
+psfgen) total of 5349 atoms
+psfgen) total of 5078 bonds
+psfgen) total of 7735 angles
+psfgen) total of 0 dihedrals
+psfgen) total of 0 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file pore_all.pdb
+psfgen) Info: pdb file complete.
